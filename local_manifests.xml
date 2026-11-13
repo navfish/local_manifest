@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="nav"
+            fetch="https://github.com/navfish/" />
+
+    <remote name="nx"
+            fetch="https://github.com/nathanzerogarage" />
+
+    <remote name="halcyon-blobs"
+            fetch="https://git.hlcyn.org/halcyonlv" />
+
+    <!-- Repos -->
+    <project path="device/xiaomi/tanzanite-kernel" name="android_device_xiaomi_tanzanite-kernel" remote="nx" revision="vanilla" />
+    <project path="device/xiaomi/tanzanite" name="android_device_xiaomi_tanzanite" remote="nav" revision="seventeen" />
+
+    <!-- Vendor -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="nx" revision="17" />
+    <project path="vendor/xiaomi/tanzanite" name="proprietary_vendor_xiaomi_tanzanite" remote="halcyon-blobs" revision="17.0" />
+    <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="halcyon-blobs" revision="16.2" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="nx" revision="17" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="nx" revision="17" />
+
+    <!-- Other Repos -->
+    <remove-project path="external/wpa_supplicant_8" />
+    <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="nav" revision="lineage-24.0" />
+
+</manifest>

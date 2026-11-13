@@ -6,6 +6,9 @@
     <remote name="nx"
             fetch="https://github.com/nathanzerogarage" />
 
+    <remote name="halcyon"
+            fetch="https://github.com/halcyonproject" />
+    
     <remote name="halcyon-blobs"
             fetch="https://git.hlcyn.org/halcyonlv" />
 
@@ -20,7 +23,7 @@
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="nx" revision="17" />
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="nx" revision="17" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="halcyon" revision="17.0" />
 
     <!-- Other Repos -->
     <remove-project path="external/wpa_supplicant_8" />

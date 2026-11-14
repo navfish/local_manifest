@@ -14,7 +14,7 @@
 
     <!-- Repos -->
     <project path="device/xiaomi/tanzanite-kernel" name="android_device_xiaomi_tanzanite-kernel" remote="nx" revision="vanilla" />
-    <project path="device/xiaomi/tanzanite" name="android_device_xiaomi_tanzanite" remote="nav" revision="seventeen" />
+    <project path="device/xiaomi/tanzanite" name="android_device_xiaomi_tanzanite" remote="nav" revision="lineage-24.0" />
 
     <!-- Vendor -->
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="nx" revision="17" />

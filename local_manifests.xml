@@ -22,8 +22,8 @@
     <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="halcyon-blobs" revision="16.2" />
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="halcyon" revision="16.2" />
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="halcyon" revision="16.2" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="halcyon" revision="16.2" />
+    <project path="hardware/mediatek" name="hardware_mediatek" remote="halcyon" revision="16.2" />
 
     <!-- WPA3 fix -->
     <remove-project path="external/wpa_supplicant_8" />
